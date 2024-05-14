@@ -1,0 +1,100 @@
+/* Search.css */
+
+.search-section {
+  padding-top: 140px;
+}
+
+.search-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.container__link-icon {
+  margin-right: 20px;
+}
+
+/* Prefix styles with ".search-container" to isolate them */
+.search-container .basic-search-option,
+.search-container .traditional-search-option,
+.search-container .advanced-search-option {
+  background-color: #333;
+  padding: 20px;
+  width: 450px;
+  height: 430px;
+  margin-left: 35px;
+  border: 2px solid white;
+  transition: border-color 0.3s ease;
+}
+
+/* Change border color on hover */
+.search-container .basic-search-option:hover,
+.search-container .traditional-search-option:hover,
+.search-container .advanced-search-option:hover {
+  border-color: rgb(255, 0, 234);
+}
+
+/* Prefix styles with ".search-container" to isolate them */
+.search-container .basic-search-option {
+  background-image: url("basic.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+}
+
+/* Prefix styles with ".search-container" to isolate them */
+.search-container .basic-search-option__heading {
+  color: white;
+  margin-top: 430px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* Other styles specific to the Search component */
+.search-container .traditional-search-option {
+  background-image: url("traditional.jpg");
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+}
+
+/* Prefix styles with ".search-container" to isolate them */
+.search-container .traditional-search-option__heading {
+  color: white;
+  margin-top: 430px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.search-container .advanced-search-option {
+  background-image: url("Advance.png");
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+}
+
+/* Prefix styles with ".search-container" to isolate them */
+.search-container .advanced-search-option__heading {
+  color: white;
+  margin-top: 430px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.search__copyright {
+  color: wheat;
+  font-size: 20px;
+  margin-top: 100px;
+  padding: 75px 0 50px 20px;
+}

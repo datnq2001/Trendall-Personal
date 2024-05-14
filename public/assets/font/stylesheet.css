@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Romans Story Demo';
+    src: url('RomansStoryDemo.eot');
+    src: url('RomansStoryDemo.eot?#iefix') format('embedded-opentype'),
+        url('RomansStoryDemo.woff2') format('woff2'),
+        url('RomansStoryDemo.woff') format('woff'),
+        url('RomansStoryDemo.ttf') format('truetype'),
+        url('RomansStoryDemo.svg#RomansStoryDemo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
