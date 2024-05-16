@@ -430,7 +430,8 @@
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
-    color: var(--white-color)
+    color: var(--white-color);
+    margin-top: 10px;
 }
 /* .exhibition-section::before{
     content: "";
