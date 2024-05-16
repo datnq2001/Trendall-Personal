@@ -190,7 +190,7 @@ function SignIn({ setShowSignIn }) {
                                     <i className="fab fa-linkedin-in"></i>
                                 </a>
                             </div>
-                            <button className="switch-btn" onClick={toggleSignUpForm}>Already have account. Sign in now</button>
+                            <button className="switch-btn" id="sign-in-btn">Already have account. Sign in now</button>
                         </form>
                     </div>
                     <div className="panels-container">

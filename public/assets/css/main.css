@@ -1090,12 +1090,12 @@ form.sign-up-form{
     transition-delay: 1s;
 } */
 .title{
-    font-size: 5.6rem;
+    font-size: 5.8rem !important;
     line-height: 58px;
     background-image: linear-gradient(45deg, rgb(246, 30, 242), rgb(39, 135, 245));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 30px;
+    margin-bottom: 3vw;
     padding-bottom: 20px;
     margin-top: 0;
 }
@@ -1157,6 +1157,7 @@ form.sign-up-form{
     letter-spacing: 1px;
     margin: 0px 0 25px 0;
     font-size: 16px;
+    text-align: center;
 }
 .social-media-group{
     margin-top: 30px;
