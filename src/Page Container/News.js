@@ -4,7 +4,7 @@ import Remarkable from '../Components/NewsPage/RemarkableArticle';
 import SearchBar from '../Components/NewsPage/SearchBar';
 import Information from '../Components/NewsPage/Information';
 import ReactPaginate from 'react-paginate';
-
+import Footer from '../Components/HomeScreen/Footer';
 
 function News() {
 
@@ -23,6 +23,7 @@ function News() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

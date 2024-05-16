@@ -5,7 +5,7 @@ import { scrollToTop } from "..";
 import { articles } from "../Components/NewsPage/Information";
 import Header from "../Components/HomeScreen/Header";
 import SearchBar from "../Components/NewsPage/SearchBar";
-
+import Footer from "../Components/HomeScreen/Footer";
 
 const Article = ({ heading, image, description, date }) => (
     <Link to="/article" onClick={scrollToTop} className="information">
@@ -73,6 +73,7 @@ function SearchResult() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
         
     );

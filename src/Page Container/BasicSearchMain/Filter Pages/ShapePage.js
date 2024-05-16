@@ -4,6 +4,7 @@ import { Link , useNavigate} from "react-router-dom";
 import items from "../../../Components/BasicResearch/Alphabet Page/ShapeGroups"; 
 import Header from "../../../Components/HomeScreen/Header";
 import "./ShapePage.css";
+import Footer from "../../../Components/HomeScreen/Footer";
 
 // Import the vases data
 import vases from "../../../Data/Vase";
@@ -112,6 +113,7 @@ function ShapePage() {
           </div> 
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import items from "../../../Components/BasicResearch/Alphabet Page/InventoryGroups"; // Import the items array from the InventoryGroups.js file
 import Header from "../../../Components/HomeScreen/Header";
 import "./ShapePage.css";
+import Footer from "../../../Components/HomeScreen/Footer";
 
 // Import the vases data
 import vases from "../../../Data/Vase";
@@ -109,6 +110,7 @@ function InventoryPage() {
           </div> 
         </div>
       </div>
+      <Footer/>
     </div>
     
   );

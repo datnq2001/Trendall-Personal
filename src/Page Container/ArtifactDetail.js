@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 import { useParams, Link, useNavigate } from "react-router-dom";
 import vases from "../Data/Vase"; // Import dữ liệu vases
 import Header from "../Components/HomeScreen/Header";
+import Footer from "../Components/HomeScreen/Footer";
 
 function ArtifactDetail(returnpage) {
   const isLoggedIn = useSelector(state => state.auth.loggedIn);
@@ -83,7 +84,7 @@ function ArtifactDetail(returnpage) {
                     </div>
                 </div>
             </div>
-        
+        <Footer/>
     </div>
   );
 }

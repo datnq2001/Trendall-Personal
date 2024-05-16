@@ -5,7 +5,7 @@ import BasicSearchButton from "../../Components/BasicResearch/Buttons In Page/Ba
 import BasicSearchButtonNoLink from "../../Components/BasicResearch/Buttons In Page/BasicSearchButtonNoLink";
 import { useDispatch } from 'react-redux';
 import { saveSearchData } from '../../Redux/actions';
-
+import Footer from "../../Components/HomeScreen/Footer";
 // Import vases data
 import vases from "../../Data/Vase";
 
@@ -68,6 +68,7 @@ function BasicSearch() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

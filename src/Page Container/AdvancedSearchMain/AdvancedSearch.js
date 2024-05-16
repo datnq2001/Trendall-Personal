@@ -10,7 +10,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { saveSearchData } from '../../Redux/actions';
 import ReactPaginate from 'react-paginate';
 import ButtonStyle from "../../Element/ButtonStyle";
-
+import Footer from "../../Components/HomeScreen/Footer";
 
 
 // Import data
@@ -261,6 +261,7 @@ function AdvancedSearch() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

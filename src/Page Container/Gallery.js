@@ -1,8 +1,7 @@
 import React from 'react'; 
 import Header from '../Components/HomeScreen/Header';
 import PinterestLayout from '../Components/Gallery/PinterestLayout';
-
-
+import Footer from '../Components/HomeScreen/Footer';
 
 function Gallery() {
 
@@ -20,6 +19,7 @@ function Gallery() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

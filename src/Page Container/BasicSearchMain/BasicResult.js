@@ -6,7 +6,7 @@ import { saveSearchData } from '../../Redux/actions';
 import BasicSearchButton from "../../Components/BasicResearch/Buttons In Page/BasicSearchButton";
 import Header from "../../Components/HomeScreen/Header";
 import BasicSearchButtonNoLink from "../../Components/BasicResearch/Buttons In Page/BasicSearchButtonNoLink";
-
+import Footer from "../../Components/HomeScreen/Footer";
 // Import vases data
 import vases from "../../Data/Vase";
 
@@ -93,6 +93,7 @@ function VaseSearchResult() {
                     />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

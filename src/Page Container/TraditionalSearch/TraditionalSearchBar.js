@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { saveSearchData, clearSelectedShape, clearSelectedInventory, clearSelectedProvenience } from '../../Redux/actions';
 import ReactPaginate from 'react-paginate';
 import ButtonStyle from "../../Element/ButtonStyle";
-
+import Footer from "../../Components/HomeScreen/Footer";
 // Import vases data
 import vases from "../../Data/Vase";
 
@@ -275,6 +275,7 @@ function TraditionalSearch() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

@@ -11,7 +11,9 @@
     font-display: swap;
 }
 
-
+.app__container{
+    min-height: 100vh;
+}
 :root {
     --primary-color: rgb(234, 15, 234);
     --text-color: #333;
